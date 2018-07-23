@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		CEA98F9221050958002445B9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA98F9121050958002445B9 /* main.swift */; };
+		CEA98F9921050A2E002445B9 /* Manufacturer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA98F9821050A2E002445B9 /* Manufacturer.swift */; };
+		CEA98F9B21050A4F002445B9 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA98F9A21050A4F002445B9 /* Product.swift */; };
+		CEA98F9D21050A62002445B9 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA98F9C21050A62002445B9 /* Order.swift */; };
+		CEA98F9F21058AED002445B9 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA98F9E21058AED002445B9 /* Util.swift */; };
+		CEA98FA12105B229002445B9 /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA98FA02105B229002445B9 /* IDisplay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		CEA98F8E21050958002445B9 /* C0735028_Exam1_MAD3004 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C0735028_Exam1_MAD3004; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA98F9121050958002445B9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CEA98F9821050A2E002445B9 /* Manufacturer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manufacturer.swift; sourceTree = "<group>"; };
+		CEA98F9A21050A4F002445B9 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		CEA98F9C21050A62002445B9 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		CEA98F9E21058AED002445B9 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		CEA98FA02105B229002445B9 /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				CEA98F9121050958002445B9 /* main.swift */,
+				CEA98F9821050A2E002445B9 /* Manufacturer.swift */,
+				CEA98F9A21050A4F002445B9 /* Product.swift */,
+				CEA98F9C21050A62002445B9 /* Order.swift */,
+				CEA98F9E21058AED002445B9 /* Util.swift */,
+				CEA98FA02105B229002445B9 /* IDisplay.swift */,
 			);
 			path = C0735028_Exam1_MAD3004;
 			sourceTree = "<group>";
@@ -119,7 +134,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA98F9921050A2E002445B9 /* Manufacturer.swift in Sources */,
 				CEA98F9221050958002445B9 /* main.swift in Sources */,
+				CEA98FA12105B229002445B9 /* IDisplay.swift in Sources */,
+				CEA98F9F21058AED002445B9 /* Util.swift in Sources */,
+				CEA98F9D21050A62002445B9 /* Order.swift in Sources */,
+				CEA98F9B21050A4F002445B9 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
